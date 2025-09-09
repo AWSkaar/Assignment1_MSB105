@@ -1,3 +1,11 @@
+.gitignore
+*.pdf
+*.html
+*.docx
+*.Rproj
+*.xlsx
+
+
 # History files
 .Rhistory
 .Rapp.history
