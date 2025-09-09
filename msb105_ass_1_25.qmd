@@ -35,8 +35,8 @@ Use both in-line and normal citations.
 
 Example:
 
-@gentleman2005 argues that bla bla bla.
-On the other hand it's claimed that bla bla [@barbalorenaa.2018; @bartlett2008].
+@brase2009 argues that bla bla bla.
+On the other hand it's claimed that bla bla [@gentleman2004; @knuth1984].
 
 ## Discussion of the reseach question
 
