@@ -186,7 +186,7 @@
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={Is reproducibility good enough?},
-  pdfauthor={Author Name},
+  pdfauthor={Amanda Skaar},
   pdflang={en-GB},
   colorlinks=true,
   linkcolor={blue},
@@ -197,8 +197,8 @@
 
 
 \title{Is reproducibility good enough?}
-\author{Author Name}
-\date{Tuesday 9 Sep, 2025}
+\author{Amanda Skaar}
+\date{Tuesday 16 Sep, 2025}
 
 \begin{document}
 \maketitle
@@ -213,6 +213,15 @@ summarising what follows below.
 What is this paper about? What is discussed? Why is it of any
 consequence?
 
+This paper is about reproducibility. First, I will present literature
+related to reproducibility in order to define what it is. In addition, I
+will present articles that discuss some of the challenges. Then, I will
+present theory on replicability and what researchers think about it.
+Furthermore, I will discuss the theory I have found, including whether
+reproducibility is asking too much. Is it good enough, or should
+replicability become the new standard? I will also discuss possible
+solutions to this. Finally, I will give a conclusion.
+
 \section{Literature review}\label{literature-review}
 
 Smart stuff from others about the topic.
@@ -226,6 +235,44 @@ Example:
 
 Brase (2009) argues that bla bla bla. On the other hand it's claimed
 that bla bla (Gentleman \& Lang, 2004; Knuth, 1984).
+
+\subsection{Reproducibility}\label{reproducibility}
+
+Reproducibility refers to the ability to use data from a study and
+obtain the same results (Parashar et al. (2022)). This is an important
+topic in research and academia because it relates to the validity of a
+study.
+
+Several articles address the problems of generating reproducible data.
+Some of the reasons are that it can be difficult to use the same
+software, and raw data is not always available. Solutions to these
+challenges have also been discussed. One such solution is a principle
+called FAIR, which states that data should be Findable, Accessible,
+Interoperable, and Reusable ((Parashar et al., 2022);(Turkyilmaz-van der
+Velden et al., 2020)). Additionally, archives have been created for data
+where researchers can upload data used in their studies. Furthermore,
+there are requirements for data to be well-documented in order to be
+uploaded to these archives.
+
+\subsection{Replicability}\label{replicability}
+
+In addition to reproducibility, there is also replicability. This
+involves replicating a previous study using different data. It is
+regarded as the gold standard ((Jasny et al., 2011)). At the same time,
+expectations about replicability are more nuanced. If one does not
+obtain the same results as a previous study, there can be many factors
+at play ((National Academies of Sciences et al., 2019)).
+
+National Academies of Sciences et al. (2019) mentions these factors: the
+discovery of an unknown effect, inherent variability in the system,
+inability to control complex variables, substandard research practices,
+and, quite simply, chance.
+
+\subsection{Quarto document}\label{quarto-document}
+
+``Quarto documents are fully reproducible and support dozens of output
+formats, like PDFs, Word files, presentations, and more (Grolemund \&
+Wickham, n.d.).''
 
 \section{Discussion of the reseach
 question}\label{discussion-of-the-reseach-question}
@@ -264,9 +311,35 @@ research data}. 257261.
 Gentleman, R., \& Lang, D. T. (2004). Statistical {Analyses} and
 {Reproducible Research}. \emph{Bioconductor Project Working Papers}.
 
+\bibitem[\citeproctext]{ref-grolemund}
+Grolemund, G., \& Wickham, H. (n.d.). \emph{R for data science}.
+
+\bibitem[\citeproctext]{ref-jasny2011}
+Jasny, B. R., Chin, G., Chong, L., \& Vignieri, S. (2011). Again, and
+again, and again. \emph{Science}, \emph{334}(6060), 12251225.
+
 \bibitem[\citeproctext]{ref-knuth1984}
 Knuth, D. E. (1984). Literate programming. \emph{The Computer Journal},
 \emph{27}(2), 97111.
+
+\bibitem[\citeproctext]{ref-nationalacademiesofsciences2019}
+National Academies of Sciences, E., Affairs, P., Global, Committee on
+Science, E., Information, B. on R. D., Sciences, D. on E. and, Physical,
+Statistics, C. on A., Theoretical, Analytics, B. on M. S., Studies, D.
+on E. and, Life, Board, N., Studies, R., Education, D. of B., Sciences,
+S., Statistics, C. on N. and, Board on Behavioral, C., Science, C. on
+R., \& in, R. (2019). \emph{Summary}. National Academies Press (US).
+\url{https://www.ncbi.nlm.nih.gov/books/NBK547531/}
+
+\bibitem[\citeproctext]{ref-parashar2022}
+Parashar, M., Heroux, M. A., \& Stodden, V. (2022). Research
+reproducibility. \emph{Computer}, \emph{55}(8), 16--18.
+\url{https://doi.org/10.1109/MC.2022.3176988}
+
+\bibitem[\citeproctext]{ref-turkyilmaz-vandervelden2020}
+Turkyilmaz-van der Velden, Y., Dintzner, N., \& Teperek, M. (2020).
+Reproducibility starts from you today. \emph{Patterns}, \emph{1}(6),
+100099. \url{https://doi.org/10.1016/j.patter.2020.100099}
 
 \end{CSLReferences}
 

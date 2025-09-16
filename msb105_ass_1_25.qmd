@@ -1,6 +1,6 @@
 ---
 title: "Is reproducibility good enough?"
-author: "Author Name"
+author: "Amanda Skaar"
 date: last-modified
 date-format: "dddd D MMM, YYYY"
 csl: apa7.csl
@@ -25,6 +25,15 @@ What is this paper about?
 What is discussed?
 Why is it of any consequence?
 
+This paper is about reproducibility.
+First, I will present literature related to reproducibility in order to define what it is.
+In addition, I will present articles that discuss some of the challenges.
+Then, I will present theory on replicability and what researchers think about it.
+Furthermore, I will discuss the theory I have found, including whether reproducibility is asking too much.
+Is it good enough, or should replicability become the new standard?
+I will also discuss possible solutions to this.
+Finally, I will give a conclusion.
+
 ## Literature review
 
 Smart stuff from others about the topic.
@@ -37,6 +46,32 @@ Example:
 
 @brase2009 argues that bla bla bla.
 On the other hand it's claimed that bla bla [@gentleman2004; @knuth1984].
+
+### Reproducibility
+
+Reproducibility refers to the ability to use data from a study and obtain the same results (@parashar2022).
+This is an important topic in research and academia because it relates to the validity of a study.
+
+Several articles address the problems of generating reproducible data.
+Some of the reasons are that it can be difficult to use the same software, and raw data is not always available.
+Solutions to these challenges have also been discussed.
+One such solution is a principle called FAIR, which states that data should be Findable, Accessible, Interoperable, and Reusable ([@parashar2022];[@turkyilmaz-vandervelden2020]).
+Additionally, archives have been created for data where researchers can upload data used in their studies.
+Furthermore, there are requirements for data to be well-documented in order to be uploaded to these archives.
+
+### Replicability
+
+In addition to reproducibility, there is also replicability.
+This involves replicating a previous study using different data.
+It is regarded as the gold standard ([@jasny2011]).
+At the same time, expectations about replicability are more nuanced.
+If one does not obtain the same results as a previous study, there can be many factors at play ([@nationalacademiesofsciences2019]).
+
+@nationalacademiesofsciences2019 mentions these factors: the discovery of an unknown effect, inherent variability in the system, inability to control complex variables, substandard research practices, and, quite simply, chance.
+
+### Quarto document
+
+"Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more [@grolemund]."
 
 ## Discussion of the reseach question
 
