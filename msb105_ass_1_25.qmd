@@ -69,6 +69,10 @@ If one does not obtain the same results as a previous study, there can be many f
 
 @nationalacademiesofsciences2019 mentions these factors: the discovery of an unknown effect, inherent variability in the system, inability to control complex variables, substandard research practices, and, quite simply, chance.
 
+A team of researchers tried to replicate articles published i en Journal of Money, Credit and Banking.
+They were only able to replicate 2 of 54 articles.
+One thing they observed was that if the authors didnt organized their data and code before submitting their articles, there was little hope of reproducing the same results later ([@mccullough2008]).
+
 ### Quarto document
 
 "Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more" [@grolemund].
