@@ -28,8 +28,8 @@ Why is it of any consequence?
 This paper is about reproducibility.
 First, I will present literature related to reproducibility in order to define what it is.
 In addition, I will present articles that discuss some of the challenges.
-Then, I will present theory on replicability and what researchers think about it.
-Furthermore, I will discuss the theory I have found, including whether reproducibility is asking too much.
+Then, the theory on replicability is presented and what researchers think about it.
+Furthermore, the theory is discussed, based in findings, including whether reproducibility is asking too much.
 Is it good enough, or should replicability become the new standard?
 I will also discuss possible solutions to this.
 Finally, I will give a conclusion.
