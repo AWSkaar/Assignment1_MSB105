@@ -71,13 +71,30 @@ If one does not obtain the same results as a previous study, there can be many f
 
 ### Quarto document
 
-"Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more [@grolemund]."
+"Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more" [@grolemund].
 
-## Discussion of the reseach question
+## Discussion of the research question
 
 -   Should replicability be the norm or is this to much to ask for now?
 -   Can Quarto documents help with reproducibility?
 -   What problems remains and how can these be solved?
+
+Let’s take an example.
+A study aims to investigate whether richer people are happier than poorer people.
+They survey a random sample of 1,000 individuals.
+Let’s say that the study finds that richer people are indeed happier than poorer people.
+
+Now, a new study is to research exactly the same issue.
+If this study does not arrive at the same conclusion, can we trust the previous study?
+On the other hand, it's challenging to use the exact same program with the same version that employs the same calculations.
+Is there sufficient documentation for the first study?
+Is it defined adequately how individuals define happiness?
+How is it determined whether someone is rich or poor?
+These are also factors that make it difficult to replicate the study.
+
+This is a complex discussion, and there are several factors at play.
+It is certainly an economic question and discovering that previous research is accurate may not yield as much credit.
+At the same time, it is important that research can be trusted.
 
 ## Conclusion
 
