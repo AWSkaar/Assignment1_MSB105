@@ -92,6 +92,10 @@ The last is that it works as an environment in which to do data science, as a la
 -   Can Quarto documents help with reproducibility?
 -   What problems remains and how can these be solved?
 
+Reproducibility and replicability are essential concepts in research that significantly affect the validity of scientific findings.
+Reproducibility involves obtaining the same results using the original study's data and methods, which is crucial for confirming the reliability of research outcomes.
+In contrast, replicability refers to the ability to conduct a study anew with different data while seeking to verify previous findings.
+
 Let’s take an example.
 A study aims to investigate whether richer people are happier than poorer people.
 They survey a random sample of 1,000 individuals.
