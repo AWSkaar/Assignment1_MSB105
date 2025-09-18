@@ -198,7 +198,7 @@
 
 \title{Is reproducibility good enough?}
 \author{Amanda Skaar}
-\date{Tuesday 16 Sep, 2025}
+\date{Thursday 18 Sep, 2025}
 
 \begin{document}
 \maketitle
@@ -213,14 +213,14 @@ summarising what follows below.
 What is this paper about? What is discussed? Why is it of any
 consequence?
 
-This paper is about reproducibility. First, I will present literature
-related to reproducibility in order to define what it is. In addition, I
-will present articles that discuss some of the challenges. Then, I will
-present theory on replicability and what researchers think about it.
-Furthermore, I will discuss the theory I have found, including whether
-reproducibility is asking too much. Is it good enough, or should
-replicability become the new standard? I will also discuss possible
-solutions to this. Finally, I will give a conclusion.
+This paper is about reproducibility. First, it will resent literature
+related to reproducibility in order to define what it is. In addition,
+it will present articles that discuss some of the challenges. Then, the
+theory on replicability is presented and what researchers think about
+it. Furthermore, the theory is discussed, based in findings, including
+whether reproducibility is asking too much. Is it good enough, or should
+replicability become the new standard? It will also discuss possible
+solutions to this. Finally, it will give a conclusion.
 
 \section{Literature review}\label{literature-review}
 
@@ -242,6 +242,15 @@ Reproducibility refers to the ability to use data from a study and
 obtain the same results (Parashar et al. (2022)). This is an important
 topic in research and academia because it relates to the validity of a
 study.
+
+The replication crisis, which is well-known in fields such as psychology
+and medicine, has recently started to garner increased attention in
+finance (Jensen et al., 2023). This phenomenon refers to the alarming
+recognition that numerous financial studies and models, previously
+regarded as reliable, do not yield consistent results when their methods
+are applied to new datasets or evaluated under varying conditions.
+Contributing factors to this problem include publication bias,
+p-hacking, and the selective reporting of results(Hasso et al., 2025).
 
 Several articles address the problems of generating reproducible data.
 Some of the reasons are that it can be difficult to use the same
@@ -268,14 +277,27 @@ discovery of an unknown effect, inherent variability in the system,
 inability to control complex variables, substandard research practices,
 and, quite simply, chance.
 
+A team of researchers tried to replicate articles published i en Journal
+of Money, Credit and Banking. They were only able to replicate 2 of 54
+articles. One thing they observed was that if the authors didnt
+organized their data and code before submitting their articles, there
+was little hope of reproducing the same results later ((McCullough et
+al., 2008)).
+
 \subsection{Quarto document}\label{quarto-document}
 
 ``Quarto documents are fully reproducible and support dozens of output
-formats, like PDFs, Word files, presentations, and more (Grolemund \&
-Wickham, n.d.).''
+formats, like PDFs, Word files, presentations, and more'' (Grolemund \&
+Wickham, n.d.).
 
-\section{Discussion of the reseach
-question}\label{discussion-of-the-reseach-question}
+Quarto documents are designed to be used in three different ways. One is
+to communicating for decision-makers. A second way is to collaborate
+with other scientists. The last is that it works as an environment in
+which to do data science, as a lab notebook (Grolemund \& Wickham,
+n.d.).
+
+\section{Discussion of the research
+question}\label{discussion-of-the-research-question}
 
 \begin{itemize}
 \tightlist
@@ -286,6 +308,25 @@ question}\label{discussion-of-the-reseach-question}
 \item
   What problems remains and how can these be solved?
 \end{itemize}
+
+Let's take an example. A study aims to investigate whether richer people
+are happier than poorer people. They survey a random sample of 1,000
+individuals. Let's say that the study finds that richer people are
+indeed happier than poorer people.
+
+Now, a new study is to research exactly the same issue. If this study
+does not arrive at the same conclusion, can we trust the previous study?
+On the other hand, it's challenging to use the exact same program with
+the same version that employs the same calculations. Is there sufficient
+documentation for the first study? Is it defined adequately how
+individuals define happiness? How is it determined whether someone is
+rich or poor? These are also factors that make it difficult to replicate
+the study.
+
+This is a complex discussion, and there are several factors at play. It
+is certainly an economic question and discovering that previous research
+is accurate may not yield as much credit. At the same time, it is
+important that research can be trusted.
 
 \section{Conclusion}\label{conclusion}
 
@@ -314,13 +355,31 @@ Gentleman, R., \& Lang, D. T. (2004). Statistical {Analyses} and
 \bibitem[\citeproctext]{ref-grolemund}
 Grolemund, G., \& Wickham, H. (n.d.). \emph{R for data science}.
 
+\bibitem[\citeproctext]{ref-hasso2025}
+Hasso, T., Brosnan, M., Ali, S., \& Chai, D. (2025). Perceived problems,
+causes, and solutions of finance research reproducibility and
+replicability: A pre-registered report. \emph{Pacific-Basin Finance
+Journal}, \emph{91}, 102564.
+\url{https://doi.org/10.1016/j.pacfin.2024.102564}
+
 \bibitem[\citeproctext]{ref-jasny2011}
 Jasny, B. R., Chin, G., Chong, L., \& Vignieri, S. (2011). Again, and
 again, and again. \emph{Science}, \emph{334}(6060), 12251225.
 
+\bibitem[\citeproctext]{ref-jensen2023}
+Jensen, T. I., Kelly, B., \& Pedersen, L. H. (2023). Is There a
+Replication Crisis in Finance? \emph{The Journal of Finance},
+\emph{78}(5), 2465--2518. \url{https://doi.org/10.1111/jofi.13249}
+
 \bibitem[\citeproctext]{ref-knuth1984}
 Knuth, D. E. (1984). Literate programming. \emph{The Computer Journal},
 \emph{27}(2), 97111.
+
+\bibitem[\citeproctext]{ref-mccullough2008}
+McCullough, B. D., McGeary, K. A., \& Harrison, T. D. (2008). Do
+economics journal archives promote replicable research? \emph{Canadian
+Journal of Economics/Revue Canadienne d'économique}, \emph{41}(4),
+14061420.
 
 \bibitem[\citeproctext]{ref-nationalacademiesofsciences2019}
 National Academies of Sciences, E., Affairs, P., Global, Committee on

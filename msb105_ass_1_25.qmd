@@ -26,13 +26,13 @@ What is discussed?
 Why is it of any consequence?
 
 This paper is about reproducibility.
-First, I will present literature related to reproducibility in order to define what it is.
-In addition, I will present articles that discuss some of the challenges.
+First, it will resent literature related to reproducibility in order to define what it is.
+In addition, it will present articles that discuss some of the challenges.
 Then, the theory on replicability is presented and what researchers think about it.
 Furthermore, the theory is discussed, based in findings, including whether reproducibility is asking too much.
 Is it good enough, or should replicability become the new standard?
-I will also discuss possible solutions to this.
-Finally, I will give a conclusion.
+It will also discuss possible solutions to this.
+Finally, it will give a conclusion.
 
 ## Literature review
 
@@ -51,6 +51,10 @@ On the other hand it's claimed that bla bla [@gentleman2004; @knuth1984].
 
 Reproducibility refers to the ability to use data from a study and obtain the same results (@parashar2022).
 This is an important topic in research and academia because it relates to the validity of a study.
+
+The replication crisis, which is well-known in fields such as psychology and medicine, has recently started to garner increased attention in finance [@jensen2023].
+This phenomenon refers to the alarming recognition that numerous financial studies and models, previously regarded as reliable, do not yield consistent results when their methods are applied to new datasets or evaluated under varying conditions.
+Contributing factors to this problem include publication bias, p-hacking, and the selective reporting of results [@hasso2025].
 
 Several articles address the problems of generating reproducible data.
 Some of the reasons are that it can be difficult to use the same software, and raw data is not always available.
@@ -76,6 +80,11 @@ One thing they observed was that if the authors didnt organized their data and c
 ### Quarto document
 
 "Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more" [@grolemund].
+
+Quarto documents are designed to be used in three different ways.
+One is to communicating for decision-makers.
+A second way is to collaborate with other scientists.
+The last is that it works as an environment in which to do data science, as a lab notebook [@grolemund].
 
 ## Discussion of the research question
 
