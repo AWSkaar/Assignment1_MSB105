@@ -49,8 +49,8 @@ On the other hand it's claimed that bla bla [@gentleman2004; @knuth1984].
 
 ### Reproducibility
 
-Reproducibility refers to the ability to use data from a study and obtain the same results (@parashar2022).
-This is an important topic in research and academia because it relates to the validity of a study.
+Reproducibility refers to the ability to use data from a study and obtain the same results (@parashar2022; [@goodman2016]).
+This is an important topic in research and academia because it relates to the validity and reliability of a study, and there are reserchers that are concerned about the rate and predictors of reproducibility [@collaboration2015].
 
 The replication crisis, which is well-known in fields such as psychology and medicine, has recently started to garner increased attention in finance [@jensen2023].
 This phenomenon refers to the alarming recognition that numerous financial studies and models, previously regarded as reliable, do not yield consistent results when their methods are applied to new datasets or evaluated under varying conditions.
@@ -61,13 +61,13 @@ Some of the reasons are that it can be difficult to use the same software, and r
 Solutions to these challenges have also been discussed.
 One such solution is a principle called FAIR, which states that data should be Findable, Accessible, Interoperable, and Reusable ([@parashar2022];[@turkyilmaz-vandervelden2020]).
 Additionally, archives have been created for data where researchers can upload data used in their studies.
-Furthermore, there are requirements for data to be well-documented in order to be uploaded to these archives.
+Furthermore, there are requirements for data to be well-documented in order to be uploaded to these archives [@gentleman2007].
 
 ### Replicability
 
 In addition to reproducibility, there is also replicability.
 This involves replicating a previous study using different data.
-It is regarded as the gold standard ([@jasny2011]).
+It is regarded as the gold standard ([@jasny2011];[@peng2011]).
 At the same time, expectations about replicability are more nuanced.
 If one does not obtain the same results as a previous study, there can be many factors at play ([@nationalacademiesofsciences2019]).
 
@@ -120,6 +120,12 @@ It is certainly an economic question and discovering that previous research is a
 At the same time, it is important that research can be trusted.
 
 ## Conclusion
+
+In summary, the concepts of reproducibility and replicability are critical in ensuring the integrity and validity of scientific research.
+Despite advances in methodologies and tools like Quarto for enhancing transparency, significant challenges persist in achieving reliable outcomes.
+The replication crisis highlights the complex interplay of factors that can affect results, from variations in data handling to the documentation of research practices.
+As seen in attempts to replicate studies in fields like finance, the lack of organization and clarity in the original work can severely hinder the ability to reproduce findings.
+Therefore, while striving for high standards in research practices is essential, it is equally important to cultivate a culture of openness and communication within the academic community, ensuring that results can be trusted and built upon as science continues to evolve.
 
 ## References
 
