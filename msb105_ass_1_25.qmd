@@ -96,6 +96,12 @@ Reproducibility and replicability are essential concepts in research that signif
 Reproducibility involves obtaining the same results using the original study's data and methods, which is crucial for confirming the reliability of research outcomes.
 In contrast, replicability refers to the ability to conduct a study anew with different data while seeking to verify previous findings.
 
+Quarto documents can greatly assist with reproducibility due to their features, allowing users to view all the code and related content.
+However, it is quite challenging to claim that Quarto documents are fully reproducible, as @grolemund says.
+
+Such archives where researchers can upload their data represent an important step toward achieving reproducible documents.
+However, research indicates that even when data has been uploaded, it is not always easy to reproduce or replicate the findings.
+
 Let’s take an example.
 A study aims to investigate whether richer people are happier than poorer people.
 They survey a random sample of 1,000 individuals.
