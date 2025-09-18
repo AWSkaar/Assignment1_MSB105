@@ -16,7 +16,7 @@ format:
     papersize: A4
     fig-pos: "H"
 bibliography: reproducibility.bib
-abstract: "A very short abstract. Put the abstract text here. One or two paragraphs summarising what follows below."
+abstract: "This paper examines the essential concepts of reproducibility and replicability in scientific research, emphasizing their significance for validating findings. It reviews literature defining these terms and outlines challenges such as publication bias and data accessibility. The distinction between reproducibility—using original data to replicate results—and replicability—conducting new studies with different data—is discussed, along with the implications of the replication crisis in fields like finance. The paper also considers potential solutions, including the FAIR principles and Quarto documents, advocating for a cultural shift toward greater openness in research practices to ensure reliable scientific findings."
 ---
 
 ## Introduction
