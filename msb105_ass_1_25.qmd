@@ -21,10 +21,6 @@ abstract: "This paper examines the essential concepts of reproducibility and rep
 
 ## Introduction
 
-What is this paper about?
-What is discussed?
-Why is it of any consequence?
-
 This paper is about reproducibility.
 First, it will resent literature related to reproducibility in order to define what it is.
 In addition, it will present articles that discuss some of the challenges.
@@ -35,17 +31,6 @@ It will also discuss possible solutions to this.
 Finally, it will give a conclusion.
 
 ## Literature review
-
-Smart stuff from others about the topic.
-
-Use a least 20 citations, a least 5 of them must be new (not from the provided .bib file).
-
-Use both in-line and normal citations.
-
-Example:
-
-@brase2009 argues that bla bla bla.
-On the other hand it's claimed that bla bla [@gentleman2004; @knuth1984].
 
 ### Reproducibility
 
@@ -88,10 +73,6 @@ The last is that it works as an environment in which to do data science, as a la
 
 ## Discussion of the research question
 
--   Should replicability be the norm or is this to much to ask for now?
--   Can Quarto documents help with reproducibility?
--   What problems remains and how can these be solved?
-
 Reproducibility and replicability are essential concepts in research that significantly affect the validity of scientific findings.
 Reproducibility involves obtaining the same results using the original study's data and methods, which is crucial for confirming the reliability of research outcomes.
 In contrast, replicability refers to the ability to conduct a study anew with different data while seeking to verify previous findings.
@@ -129,7 +110,14 @@ Therefore, while striving for high standards in research practices is essential,
 
 ## References
 
-and
+R version 4.5.0 (2025-04-11 ucrt)
 
--   Version number and reference to packages used
--   R version used
+  LAPACK version 3.12.1
+
+attached base packages:
+
+\[1\] stats     graphics  grDevices utils     datasets  methods   base    
+
+loaded via a namespace (and not attached):
+
+\[1\] compiler_4.5.0 tools_4.5.0    knitr_1.50     xfun_0.52      evaluate_1.0.4
