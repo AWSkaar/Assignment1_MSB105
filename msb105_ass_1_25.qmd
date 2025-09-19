@@ -84,7 +84,7 @@ One thing they observed was that if the authors didnt organized their data and c
 Quarto documents are designed to be used in three different ways.
 One is to communicating for decision-makers.
 A second way is to collaborate with other scientists.
-The last is that it works as an environment in which to do data science, as a lab notebook [@grolemund].
+The last is that it works as an environment in which to do data science, as a lab notebook [@grolemund;@quarto;@alexander2025].
 
 ## Discussion of the research question
 
