@@ -198,7 +198,7 @@
 
 \title{Is reproducibility good enough?}
 \author{Amanda Skaar}
-\date{Friday 19 Sep, 2025}
+\date{Monday 22 Sep, 2025}
 
 \begin{document}
 \maketitle
@@ -207,9 +207,9 @@ This paper examines the essential concepts of reproducibility and
 replicability in scientific research, emphasizing their significance for
 validating findings. It reviews literature defining these terms and
 outlines challenges such as publication bias and data accessibility. The
-distinction between reproducibility---using original data to replicate
-results---and replicability---conducting new studies with different
-data---is discussed, along with the implications of the replication
+distinction between reproducibility --- using original data to replicate
+results --- and replicability --- conducting new studies with different
+data --- is discussed, along with the implications of the replication
 crisis in fields like finance. The paper also considers potential
 solutions, including the FAIR principles and Quarto documents,
 advocating for a cultural shift toward greater openness in research
@@ -219,40 +219,25 @@ practices to ensure reliable scientific findings.
 
 \section{Introduction}\label{introduction}
 
-What is this paper about? What is discussed? Why is it of any
-consequence?
-
-This paper is about reproducibility. First, it will resent literature
+This paper is about reproducibility. First, it will present literature
 related to reproducibility in order to define what it is. In addition,
 it will present articles that discuss some of the challenges. Then, the
 theory on replicability is presented and what researchers think about
 it. Furthermore, the theory is discussed, based in findings, including
-whether reproducibility is asking too much. Is it good enough, or should
-replicability become the new standard? It will also discuss possible
-solutions to this. Finally, it will give a conclusion.
+whether reproducibility is asking too much. Is reproducibility good
+enough, or should replicability become the new standard? It will also
+discuss possible solutions to this. Finally, it will give a conclusion.
 
 \section{Literature review}\label{literature-review}
-
-Smart stuff from others about the topic.
-
-Use a least 20 citations, a least 5 of them must be new (not from the
-provided .bib file).
-
-Use both in-line and normal citations.
-
-Example:
-
-Brase (2009) argues that bla bla bla. On the other hand it's claimed
-that bla bla (Gentleman \& Lang, 2004; Knuth, 1984).
 
 \subsection{Reproducibility}\label{reproducibility}
 
 Reproducibility refers to the ability to use data from a study and
-obtain the same results (Parashar et al. (2022); (Goodman et al.,
-2016)). This is an important topic in research and academia because it
-relates to the validity and reliability of a study, and there are
-reserchers that are concerned about the rate and predictors of
-reproducibility (Collaboration, 2015).
+obtain the same results (Goodman et al., 2016; Parashar et al., 2022).
+This is an important topic in research and academia because it relates
+to the validity and reliability of a study, and there are reserchers
+that are concerned about the rate and predictors of reproducibility
+(Collaboration, 2015).
 
 The replication crisis, which is well-known in fields such as psychology
 and medicine, has recently started to garner increased attention in
@@ -268,8 +253,8 @@ Some of the reasons are that it can be difficult to use the same
 software, and raw data is not always available. Solutions to these
 challenges have also been discussed. One such solution is a principle
 called FAIR, which states that data should be Findable, Accessible,
-Interoperable, and Reusable ((Parashar et al., 2022);(Turkyilmaz-van der
-Velden et al., 2020)). Additionally, archives have been created for data
+Interoperable, and Reusable (Parashar et al., 2022; Turkyilmaz-van der
+Velden et al., 2020). Additionally, archives have been created for data
 where researchers can upload data used in their studies. Furthermore,
 there are requirements for data to be well-documented in order to be
 uploaded to these archives (Gentleman \& Temple Lang, 2007).
@@ -278,10 +263,10 @@ uploaded to these archives (Gentleman \& Temple Lang, 2007).
 
 In addition to reproducibility, there is also replicability. This
 involves replicating a previous study using different data. It is
-regarded as the gold standard ((Jasny et al., 2011);(Peng, 2011)). At
-the same time, expectations about replicability are more nuanced. If one
+regarded as the gold standard (Jasny et al., 2011; Peng, 2011). At the
+same time, expectations about replicability are more nuanced. If one
 does not obtain the same results as a previous study, there can be many
-factors at play ((National Academies of Sciences et al., 2019)).
+factors at play (National Academies of Sciences et al., 2019).
 
 National Academies of Sciences et al. (2019) mentions these factors: the
 discovery of an unknown effect, inherent variability in the system,
@@ -290,10 +275,10 @@ and, quite simply, chance.
 
 A team of researchers tried to replicate articles published i en Journal
 of Money, Credit and Banking. They were only able to replicate 2 of 54
-articles. One thing they observed was that if the authors didnt
-organized their data and code before submitting their articles, there
-was little hope of reproducing the same results later ((McCullough et
-al., 2008)).
+articles. One thing they observed was that if the authors didn't
+organize their data and code before submitting their articles, there was
+little hope of reproducing the same results later (McCullough et al.,
+2008).
 
 \subsection{Quarto document}\label{quarto-document}
 
@@ -310,20 +295,10 @@ which to do data science, as a lab notebook (Alexander, 2025; Grolemund
 \section{Discussion of the research
 question}\label{discussion-of-the-research-question}
 
-\begin{itemize}
-\tightlist
-\item
-  Should replicability be the norm or is this to much to ask for now?
-\item
-  Can Quarto documents help with reproducibility?
-\item
-  What problems remains and how can these be solved?
-\end{itemize}
-
 Reproducibility and replicability are essential concepts in research
 that significantly affect the validity of scientific findings.
-Reproducibility involves obtaining the same results using the original
-study's data and methods, which is crucial for confirming the
+Reproducibility involves obtaining the same results using the data and
+methods from the original study, which is crucial for confirming the
 reliability of research outcomes. In contrast, replicability refers to
 the ability to conduct a study anew with different data while seeking to
 verify previous findings.
@@ -333,10 +308,10 @@ features, allowing users to view all the code and related content.
 However, it is quite challenging to claim that Quarto documents are
 fully reproducible, as Grolemund \& Wickham (n.d.) says.
 
-Such archives where researchers can upload their data represent an
-important step toward achieving reproducible documents. However,
-research indicates that even when data has been uploaded, it is not
-always easy to reproduce or replicate the findings.
+Archives where researchers can upload their data represent an important
+step toward achieving reproducible documents. However, research
+indicates that even when data has been uploaded, it is not always easy
+to reproduce or replicate the findings.
 
 Let's take an example. A study aims to investigate whether richer people
 are happier than poorer people. They survey a random sample of 1,000
@@ -345,12 +320,12 @@ indeed happier than poorer people.
 
 Now, a new study is to research exactly the same issue. If this study
 does not arrive at the same conclusion, can we trust the previous study?
-On the other hand, it's challenging to use the exact same program with
-the same version that employs the same calculations. Is there sufficient
-documentation for the first study? Is it defined adequately how
-individuals define happiness? How is it determined whether someone is
-rich or poor? These are also factors that make it difficult to replicate
-the study.
+Keep in mind that it's challenging to use the exact same program with
+the same version that employs the exact same calculations. Is there
+sufficient documentation for the first study? Is it defined adequately
+how individuals define happiness? How is it determined whether someone
+is rich or poor? These are also factors that make it difficult to
+replicate the study.
 
 This is a complex discussion, and there are several factors at play. It
 is certainly an economic question and discovering that previous research
@@ -373,17 +348,24 @@ essential, it is equally important to cultivate a culture of openness
 and communication within the academic community, ensuring that results
 can be trusted and built upon as science continues to evolve.
 
-\section{References}\label{references}
+\section{Software used}\label{software-used}
 
-and
+R version 4.5.0 (2025-04-11 ucrt)
 
-\begin{itemize}
-\tightlist
-\item
-  Version number and reference to packages used
-\item
-  R version used
-\end{itemize}
+~ LAPACK version 3.12.1
+
+attached base packages:
+
+{[}1{]} stats~~~~ graphics~ grDevices utils~~~~ datasets~ methods~~
+base~~~~
+
+loaded via a namespace (and not attached):
+
+{[}1{]} compiler\_4.5.0 tools\_4.5.0~~~ knitr\_1.50~~~~ xfun\_0.52~~~~~
+evaluate\_1.0.4
+
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
 
 \phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
@@ -391,17 +373,9 @@ and
 Alexander, R. (2025). \emph{RohanAlexander/tswd}.
 \url{https://github.com/RohanAlexander/tswd}
 
-\bibitem[\citeproctext]{ref-brase2009}
-Brase, J. (2009). \emph{DataCite - a global registration agency for
-research data}. 257261.
-
 \bibitem[\citeproctext]{ref-collaboration2015}
 Collaboration, O. S. (2015). Estimating the reproducibility of
 psychological science. \emph{Science}, \emph{349}(6251).
-
-\bibitem[\citeproctext]{ref-gentleman2004}
-Gentleman, R., \& Lang, D. T. (2004). Statistical {Analyses} and
-{Reproducible Research}. \emph{Bioconductor Project Working Papers}.
 
 \bibitem[\citeproctext]{ref-gentleman2007}
 Gentleman, R., \& Temple Lang, D. (2007). Statistical analyses and
@@ -431,10 +405,6 @@ again, and again. \emph{Science}, \emph{334}(6060), 12251225.
 Jensen, T. I., Kelly, B., \& Pedersen, L. H. (2023). Is There a
 Replication Crisis in Finance? \emph{The Journal of Finance},
 \emph{78}(5), 2465--2518. \url{https://doi.org/10.1111/jofi.13249}
-
-\bibitem[\citeproctext]{ref-knuth1984}
-Knuth, D. E. (1984). Literate programming. \emph{The Computer Journal},
-\emph{27}(2), 97111.
 
 \bibitem[\citeproctext]{ref-mccullough2008}
 McCullough, B. D., McGeary, K. A., \& Harrison, T. D. (2008). Do

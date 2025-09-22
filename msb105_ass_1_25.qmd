@@ -3,30 +3,32 @@ title: "Is reproducibility good enough?"
 author: "Amanda Skaar"
 date: last-modified
 date-format: "dddd D MMM, YYYY"
+citeproc: true
 csl: apa7.csl
 lang: en-GB
+number-sections: true
 format:
   html: default
   typst:
     papersize: a4
   pdf:
     documentclass: article
-    number-sections: true
     keep-tex: true
     papersize: A4
     fig-pos: "H"
+    output-file: "msb105_ass_1_25_tex.pdf"
 bibliography: reproducibility.bib
-abstract: "This paper examines the essential concepts of reproducibility and replicability in scientific research, emphasizing their significance for validating findings. It reviews literature defining these terms and outlines challenges such as publication bias and data accessibility. The distinction between reproducibility—using original data to replicate results—and replicability—conducting new studies with different data—is discussed, along with the implications of the replication crisis in fields like finance. The paper also considers potential solutions, including the FAIR principles and Quarto documents, advocating for a cultural shift toward greater openness in research practices to ensure reliable scientific findings."
+abstract: "This paper examines the essential concepts of reproducibility and replicability in scientific research, emphasizing their significance for validating findings. It reviews literature defining these terms and outlines challenges such as publication bias and data accessibility. The distinction between reproducibility — using original data to replicate results — and replicability — conducting new studies with different data — is discussed, along with the implications of the replication crisis in fields like finance. The paper also considers potential solutions, including the FAIR principles and Quarto documents, advocating for a cultural shift toward greater openness in research practices to ensure reliable scientific findings."
 ---
 
 ## Introduction
 
 This paper is about reproducibility.
-First, it will resent literature related to reproducibility in order to define what it is.
+First, it will present literature related to reproducibility in order to define what it is.
 In addition, it will present articles that discuss some of the challenges.
 Then, the theory on replicability is presented and what researchers think about it.
 Furthermore, the theory is discussed, based in findings, including whether reproducibility is asking too much.
-Is it good enough, or should replicability become the new standard?
+Is reproducibility good enough, or should replicability become the new standard?
 It will also discuss possible solutions to this.
 Finally, it will give a conclusion.
 
@@ -34,7 +36,7 @@ Finally, it will give a conclusion.
 
 ### Reproducibility
 
-Reproducibility refers to the ability to use data from a study and obtain the same results (@parashar2022; [@goodman2016]).
+Reproducibility refers to the ability to use data from a study and obtain the same results [@parashar2022; @goodman2016].
 This is an important topic in research and academia because it relates to the validity and reliability of a study, and there are reserchers that are concerned about the rate and predictors of reproducibility [@collaboration2015].
 
 The replication crisis, which is well-known in fields such as psychology and medicine, has recently started to garner increased attention in finance [@jensen2023].
@@ -44,7 +46,7 @@ Contributing factors to this problem include publication bias, p-hacking, and th
 Several articles address the problems of generating reproducible data.
 Some of the reasons are that it can be difficult to use the same software, and raw data is not always available.
 Solutions to these challenges have also been discussed.
-One such solution is a principle called FAIR, which states that data should be Findable, Accessible, Interoperable, and Reusable ([@parashar2022];[@turkyilmaz-vandervelden2020]).
+One such solution is a principle called FAIR, which states that data should be Findable, Accessible, Interoperable, and Reusable [@parashar2022; @turkyilmaz-vandervelden2020].
 Additionally, archives have been created for data where researchers can upload data used in their studies.
 Furthermore, there are requirements for data to be well-documented in order to be uploaded to these archives [@gentleman2007].
 
@@ -52,15 +54,15 @@ Furthermore, there are requirements for data to be well-documented in order to b
 
 In addition to reproducibility, there is also replicability.
 This involves replicating a previous study using different data.
-It is regarded as the gold standard ([@jasny2011];[@peng2011]).
+It is regarded as the gold standard [@jasny2011;@peng2011].
 At the same time, expectations about replicability are more nuanced.
-If one does not obtain the same results as a previous study, there can be many factors at play ([@nationalacademiesofsciences2019]).
+If one does not obtain the same results as a previous study, there can be many factors at play [@nationalacademiesofsciences2019].
 
 @nationalacademiesofsciences2019 mentions these factors: the discovery of an unknown effect, inherent variability in the system, inability to control complex variables, substandard research practices, and, quite simply, chance.
 
 A team of researchers tried to replicate articles published i en Journal of Money, Credit and Banking.
 They were only able to replicate 2 of 54 articles.
-One thing they observed was that if the authors didnt organized their data and code before submitting their articles, there was little hope of reproducing the same results later ([@mccullough2008]).
+One thing they observed was that if the authors didn't organize their data and code before submitting their articles, there was little hope of reproducing the same results later [@mccullough2008].
 
 ### Quarto document
 
@@ -74,13 +76,13 @@ The last is that it works as an environment in which to do data science, as a la
 ## Discussion of the research question
 
 Reproducibility and replicability are essential concepts in research that significantly affect the validity of scientific findings.
-Reproducibility involves obtaining the same results using the original study's data and methods, which is crucial for confirming the reliability of research outcomes.
+Reproducibility involves obtaining the same results using the data and methods from the original study, which is crucial for confirming the reliability of research outcomes.
 In contrast, replicability refers to the ability to conduct a study anew with different data while seeking to verify previous findings.
 
 Quarto documents can greatly assist with reproducibility due to their features, allowing users to view all the code and related content.
 However, it is quite challenging to claim that Quarto documents are fully reproducible, as @grolemund says.
 
-Such archives where researchers can upload their data represent an important step toward achieving reproducible documents.
+Archives where researchers can upload their data represent an important step toward achieving reproducible documents.
 However, research indicates that even when data has been uploaded, it is not always easy to reproduce or replicate the findings.
 
 Let’s take an example.
@@ -90,7 +92,7 @@ Let’s say that the study finds that richer people are indeed happier than poor
 
 Now, a new study is to research exactly the same issue.
 If this study does not arrive at the same conclusion, can we trust the previous study?
-On the other hand, it's challenging to use the exact same program with the same version that employs the same calculations.
+Keep in mind that it's challenging to use the exact same program with the same version that employs the exact same calculations.
 Is there sufficient documentation for the first study?
 Is it defined adequately how individuals define happiness?
 How is it determined whether someone is rich or poor?
@@ -108,7 +110,7 @@ The replication crisis highlights the complex interplay of factors that can affe
 As seen in attempts to replicate studies in fields like finance, the lack of organization and clarity in the original work can severely hinder the ability to reproduce findings.
 Therefore, while striving for high standards in research practices is essential, it is equally important to cultivate a culture of openness and communication within the academic community, ensuring that results can be trusted and built upon as science continues to evolve.
 
-## References
+## Software used
 
 R version 4.5.0 (2025-04-11 ucrt)
 
@@ -121,3 +123,5 @@ attached base packages:
 loaded via a namespace (and not attached):
 
 \[1\] compiler_4.5.0 tools_4.5.0    knitr_1.50     xfun_0.52      evaluate_1.0.4
+
+## References
