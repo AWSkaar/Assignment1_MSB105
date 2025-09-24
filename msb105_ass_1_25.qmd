@@ -54,7 +54,7 @@ Furthermore, there are requirements for data to be well-documented in order to b
 
 In addition to reproducibility, there is also replicability.
 This involves replicating a previous study using different data.
-It is regarded as the gold standard [@jasny2011;@peng2011].
+It is regarded as the gold standard [@jasny2011; @peng2011].
 At the same time, expectations about replicability are more nuanced.
 If one does not obtain the same results as a previous study, there can be many factors at play [@nationalacademiesofsciences2019].
 
@@ -71,7 +71,7 @@ One thing they observed was that if the authors didn't organize their data and c
 Quarto documents are designed to be used in three different ways.
 One is to communicating for decision-makers.
 A second way is to collaborate with other scientists.
-The last is that it works as an environment in which to do data science, as a lab notebook [@grolemund;@quarto;@alexander2025].
+The last is that it works as an environment in which to do data science, as a lab notebook [@grolemund; @quarto; @alexander2025].
 
 ## Discussion of the research question
 
